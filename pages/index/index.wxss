@@ -73,7 +73,8 @@ swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
 
 .cu-card.article>.cu-item .content .text-content {
 	height: inherit;
-	font-size: 26rpx;
+	font-size: 28rpx;
+	font-weight: 300;
 	color: #6e6e6e;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -84,7 +85,7 @@ swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
 
 
 .line-orange {
-	color: #ed7e46;
+	color: #ee8651;
 }
 
 .line-gray {
@@ -92,6 +93,11 @@ swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
 }
 
 .author {
-	font-size: 24rpx;
+	font-size: 28rpx;
+	font-weight: 300;
 	color: #9a9a9a;
+}
+
+.cu-tag[class*="line-"]::after {
+	border: 3rpx solid currentColor;
 }
