@@ -1,7 +1,7 @@
 /* ==================
          轮播
  ==================== */
- swiper .a-swiper-dot {
+swiper .a-swiper-dot {
 	display: inline-block;
 	width: 16rpx;
 	height: 16rpx;
@@ -72,23 +72,26 @@ swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
 }
 
 .cu-card.article>.cu-item .content .text-content {
-	height:inherit;
+	height: inherit;
 	font-size: 26rpx;
 	color: #6e6e6e;
-	overflow:hidden; 
-	text-overflow:ellipsis;
-	display:-webkit-box; 
-	-webkit-box-orient:vertical;
-	-webkit-line-clamp:2; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
 }
 
-.text-gray,
-.line-gray,
-.lines-gray {
+
+.line-orange {
+	color: #ed7e46;
+}
+
+.line-gray {
 	color: #9a9a9a;
 }
 
-.author{
+.author {
 	font-size: 24rpx;
 	color: #9a9a9a;
 }
