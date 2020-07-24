@@ -81,3 +81,14 @@ swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
 	-webkit-box-orient:vertical;
 	-webkit-line-clamp:2; 
 }
+
+.text-gray,
+.line-gray,
+.lines-gray {
+	color: #9a9a9a;
+}
+
+.author{
+	font-size: 24rpx;
+	color: #9a9a9a;
+}
