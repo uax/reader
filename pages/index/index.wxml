@@ -45,12 +45,36 @@
 </view>
 
 <view class="padding-lr bg-white random">
-	<view class="flex solid-bottom justify-between">
+	<view class="flex justify-between">
 		<view wx:for="{{swiperList}}" wx:key="index">
 			<image src="{{item.url}}" mode="aspectFill"></image>
 			<view class="title padding-top-xs text-df" wx:if="{{index%2==0}}">测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题</view>
 			<view class="title padding-top-xs text-df" wx:else>测试标题</view>
 			<view class="author">佚名</view>
+		</view>
+	</view>
+</view>
+
+<view class="cu-bar">
+	<view class="action">
+		<text class="text-lg text-black text-bold margin-left-sm">今日免费</text>
+	</view>
+</view>
+<view class="flex justify-between ">
+	<view wx:for="{{2}}" wx:key="index">
+		<view class="cu-card article no-card">
+			<view class="cu-item shadow">
+				<view class="content">
+					<image src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg" mode="aspectFill"></image>
+					<view class="desc">
+						<text class="text-df">西游记</text>
+						<view class="flex solid-bottom justify-between">
+							<view class=" text-sm text-orange ">限免</view>
+							<view class=" text-sm delete">千字5分</view>
+						</view>
+					</view>
+				</view>
+			</view>
 		</view>
 	</view>
 </view>

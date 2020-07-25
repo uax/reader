@@ -102,10 +102,11 @@ swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
 	border: 3rpx solid currentColor;
 }
 
-.random image{
+.random image {
 	margin-right: inherit;
 }
-.random .title{
+
+.random .title {
 	width: 140rpx;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -113,7 +114,15 @@ swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 2;
 }
-.random .author{
+
+.random .author,
+.free .author {
 	font-size: 24rpx;
 	width: 140rpx;
+}
+
+.delete {
+	color: #9a9a9a;
+	text-decoration: line-through;
+	font-weight: 300;
 }
