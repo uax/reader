@@ -101,3 +101,19 @@ swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
 .cu-tag[class*="line-"]::after {
 	border: 3rpx solid currentColor;
 }
+
+.random image{
+	margin-right: inherit;
+}
+.random .title{
+	width: 140rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.random .author{
+	font-size: 24rpx;
+	width: 140rpx;
+}

@@ -773,6 +773,19 @@ image {
 .margin-left-sm {
 	margin-left: 30rpx;
 }
+.padding {
+	padding: 30rpx;
+}
+.padding-sm {
+	padding: 20rpx;
+}
+.padding-lr {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.padding-top-xs {
+	padding-top: 10rpx;
+}
 
 /* ==================
          卡片
@@ -883,7 +896,8 @@ image {
 	padding: 0 30rpx;
 }
 
-.cu-card.article>.cu-item .content>image {
+.cu-card.article>.cu-item .content>image,
+.random image {
 	width: 140rpx;
 	height: 190rpx;
 	margin-right: 20rpx;
@@ -1030,3 +1044,4 @@ image {
 .justify-around {
 	justify-content: space-around;
 }
+

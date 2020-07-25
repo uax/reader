@@ -31,7 +31,7 @@
 			<view class="desc">
 				<text class="text-lg">英雄联盟</text>
 				<view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
-				<view class="flex solid-bottom padding justify-between">
+				<view class="flex solid-bottom justify-between">
 					<view class="author">佚名</view>
 					<view>
 						<view class="cu-tag line-orange sm radius">9.8分</view>
@@ -40,6 +40,17 @@
 					</view>
 				</view>
 			</view>
+		</view>
+	</view>
+</view>
+
+<view class="padding-lr bg-white random">
+	<view class="flex solid-bottom justify-between">
+		<view wx:for="{{swiperList}}" wx:key="index">
+			<image src="{{item.url}}" mode="aspectFill"></image>
+			<view class="title padding-top-xs text-df" wx:if="{{index%2==0}}">测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题</view>
+			<view class="title padding-top-xs text-df" wx:else>测试标题</view>
+			<view class="author">佚名</view>
 		</view>
 	</view>
 </view>
